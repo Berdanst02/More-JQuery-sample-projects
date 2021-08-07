@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Speed Ticket</title>  
+    <link rel='stylesheet' href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+    
+<body>
+    <h1>Speed Ticket Calculator</h1>
+    <a href='index.html'>Home</a>
+ <div id="tables">   
+    <table>
+    <tr>
+        <td>
+        Select your highway speed<br>
+        40<input id="speedrange" type=range min="40" value="80" max="160">160    
+            
+        </td>
+        <td id="speedbox">
+        80 km/hr
+        
+        </td>
+        
+        
+    </tr>
+    
+    <tr>
+        <td>
+        Select Speed Limit<br>
+        30<input type=range min=30 max=120 value=50 id="limitrange">120
+            
+        
+        </td>
+        
+        <td id="limitbox">
+        50km/hr
+        
+        </td>
+        
+        
+        
+     </tr>
+    
+    </table>
+     
+    </div>     
+     
+    
+    <button id="setPenalty">Set Penalty</button>
+    <button id="resetPenalty">Reset</button>
+    <div id="penaltybox">
+    
+    
+    
+    </div>
+    
+    
+    
+       
+<script src="code.js"></script>
+
+</body>
+</html>

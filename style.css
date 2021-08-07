@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+   font-family: 'Bebas Neue', cursive; 
+    text-align: center;
+    background-color: darkgrey;
+}
+
+
+
+
+
+
+
+#level{
+    border:1px solid black;
+    width:300px;
+    height:125px;
+    margin:auto;
+    margin-top:10px;
+    border-radius:20px;
+    padding:10px;
+    text-align: center;
+   
+    
+}
+
+
+
+table{
+    width:400px;
+    border: 3px double black;
+    margin-bottom: 20px;
+}
+
+td{
+    padding:10px;
+    border:1px solid black;
+    text-align: center;
+    
+}
+
+button{
+    width:100px;
+    border-radius: 10px;
+    margin:10px;
+    font-family: inherit;
+    background-color: gray;
+    color:white;
+    padding:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color:darkslategrey;
+    color:white;
+    font-family: 'Arial', cursive;
+    
+    
+}
+
+#penaltybox{
+    width:380px;
+    height:100px;
+    padding:10px;
+    text-align: center;
+    margin: auto;
+    background-color: silver;
+    
+}
+
+#tables{
+    text-align: center;
+    margin: auto;
+    width:400px;
+    border: 3px double black;
+    margin-bottom: 20px;
+}
+
+a{
+    font-size: 40px;
+    width: 200px;
+    height:100px;
+    margin:10px;
+    
+
+}
+
+a:hover{
+    color:white;
+
+}
+
+h1{
+    font-size: 40px;
+}
+
+#txtmark{
+    height:30px;
+}
+
+#basepc{
+    margin:auto ;
+    text-align: left ;
+    font-size:30px;
+    width:350px;
+    margin-top:40px;
+}
+#options{
+    
+    font-size:40px;
+    width:100%;
+    margin-top:40px;
+    margin:auto;
+    
+
+
+
+
+
+    
+    
+    
+}
